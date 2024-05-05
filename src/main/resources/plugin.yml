@@ -1,0 +1,4 @@
+name: WerewolfPlugin
+version: '${project.version}'
+main: uk.mushow.werewolf.WerewolfPlugin
+api-version: '1.20'
