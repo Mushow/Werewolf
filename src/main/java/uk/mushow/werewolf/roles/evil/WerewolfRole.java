@@ -7,6 +7,8 @@ import java.util.List;
 
 public class WerewolfRole implements Role {
 
+    private final String texture = "";
+
     @Override
     public String getRoleName() {
         return "Werewolf";
@@ -30,8 +32,8 @@ public class WerewolfRole implements Role {
     }
 
     @Override
-    public void performNightAction() {
-
+    public String getTexture() {
+        return texture;
     }
 
 }

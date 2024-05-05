@@ -7,6 +7,8 @@ import java.util.List;
 
 public class VillagerRole implements Role {
 
+    private final String texture = "";
+
     @Override
     public String getRoleName() {
         return "Villager";
@@ -30,8 +32,8 @@ public class VillagerRole implements Role {
     }
 
     @Override
-    public void performNightAction() {
-
+    public String getTexture() {
+        return texture;
     }
 
 }
