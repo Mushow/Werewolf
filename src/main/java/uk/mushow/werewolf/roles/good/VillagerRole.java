@@ -7,7 +7,7 @@ import java.util.List;
 
 public class VillagerRole implements Role {
 
-    private final String texture = "";
+    private final String texture = "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZjY1YzE3OWI3MmZhOThjNjFjOGYwZDVhZGQ1ODQ3Zjg3MWJhZDk4M2IxMThmMzgzZDk1YWFjY2JhNDc2In19fQ==";
 
     @Override
     public String getRoleName() {
