@@ -10,4 +10,8 @@ public interface Role {
     boolean isGood();
     void performNightAction();
 
+    default String getRoleDisplayName() {
+        return getRoleColor() + getRoleName();
+    }
+
 }
