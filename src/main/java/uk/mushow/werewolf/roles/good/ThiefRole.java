@@ -16,7 +16,7 @@ public class ThiefRole implements Role {
 
     @Override
     public ChatColor getRoleColor() {
-        return ChatColor.DARK_RED;
+        return ChatColor.GOLD;
     }
 
     @Override
