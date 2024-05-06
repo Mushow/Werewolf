@@ -2,3 +2,13 @@ name: WerewolfPlugin
 version: '${project.version}'
 main: uk.mushow.werewolf.WerewolfPlugin
 api-version: '1.20'
+
+commands:
+  help:
+    description: Displays the help menu
+    usage: /help
+    aliases: [h]
+  info:
+    description: Displays information about a role
+    usage: /info
+    aliases: [i]
