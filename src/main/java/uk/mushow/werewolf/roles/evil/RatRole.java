@@ -21,7 +21,7 @@ public class RatRole implements Role {
 
     @Override
     public List<String> getRoleDescription() {
-        return List.of("As a Rat, you have the ability to infect one player each night.",
+        return List.of("As a Rat, you have the ability to infect two player each night.",
                 "Your goal is to use your power to infect all the villagers and outnumber them.",
                 "Work with the other werewolves to gather information and vote to eliminate the villagers during the day.");
     }
