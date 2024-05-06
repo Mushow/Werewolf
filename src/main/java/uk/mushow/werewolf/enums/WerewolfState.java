@@ -6,6 +6,6 @@ public enum WerewolfState {
     STARTING,
     NIGHT,
     DAY,
-    ENDING
+    ENDING;
 
 }
